@@ -113,8 +113,6 @@ nav button{
 
 /* users  */
 .user-count{
-  display: block;
-  justify-content: center;
   text-align: center;
   background-color: rgba(78, 71, 255, 0.1);
   margin: 116px auto 0 auto;
@@ -142,3 +140,42 @@ nav button{
   color: #000000;
   opacity: 50%;
 }
+/* focus styles */
+.focus{
+  width: 100%;
+ 
+}
+.focus-content{
+  background-color: #ffffff;
+  max-width: 1100px;
+  text-align: center;
+  margin: 137px auto 0 auto;
+  padding: 71px;
+  border-radius: 48px;
+}
+.focus-title{
+  font-size: 50px;
+  font-weight: bold;
+  color: #000000;
+}
+.focus-des{
+  font-size: 16px;
+  color: #000000;
+  opacity: 50%;
+}
+.focus-btn{
+  height: 48px;
+  width: 195px;
+  border-radius: 10px;
+  border: none;
+  background-color: #4E47FF;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+.focus-img{
+  border-radius: 48px;
+}
+
+/* contact style */
