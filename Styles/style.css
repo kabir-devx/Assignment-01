@@ -29,7 +29,7 @@ body{
   background-color: #f5f8ff;
 }
 /* header styles */
- header{
+.hero-bg{
   background-image: url(./hero-bg.png);
   background-size: cover;
   padding-bottom: 152px;
