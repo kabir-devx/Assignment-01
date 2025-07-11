@@ -28,7 +28,7 @@ body{
 }
 /* header styles */
 .hero-bg{
-  background-image: url("/Assets/hero-bg.png");
+  background-image: url("../Assets/hero-bg.png");
   background-size: cover;
   padding-bottom: 152px;
 }
