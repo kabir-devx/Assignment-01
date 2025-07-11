@@ -29,11 +29,7 @@ body{
   background-color: #f5f8ff;
 }
 /* header styles */
-header{
-  background-image: url(/Assets/Hero-bg.png);
-  background-size: cover;
-  padding-bottom: 152px;
-}
+
 .logo{
   margin-top: 50px;
   margin-left: 150px;
