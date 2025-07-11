@@ -28,7 +28,7 @@ body{
 }
 /* header styles */
 .hero-bg{
-  background-image: url(/hero-bg.png);
+  background-image: url(/assets/hero-bg.png);
   background-size: cover;
   padding-bottom: 152px;
 }
@@ -345,3 +345,4 @@ footer{
 .reviewer img{
   border-radius: 50%;
 }
+/* end */
