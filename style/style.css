@@ -31,22 +31,25 @@ body{
   background-image: url("../Assets/hero-bg.png");
   background-size: cover;
   padding-bottom: 152px;
+  max-width: 1540px;
+  margin: auto;
 }
 .logo{
   margin-top: 50px;
-  margin-left: 150px;
+
 }
 .nav-btn{
   margin-top: 50px;
-  margin-right: 150px;
 }
 .nav-btn:hover{
   background-color: #3b30b8;
   cursor: pointer;
 }
-nav{
+.navbar{
   display: flex;
   justify-content: space-between;
+  max-width: 1140px;
+  margin: auto;
 }
 nav li{
   list-style: none;
@@ -93,12 +96,12 @@ nav button{
 .action{
   display: flex;
   justify-content: space-between;
-  margin: 116px auto 0 auto;
-  max-width: 1540px;
+  margin: 116px auto;
+  max-width: 1140px;
   
 }
 .action-text{
-  margin-left: 141px;
+  align-items: start;
 }
 .action-title{
   font-size: 42px;
@@ -124,22 +127,24 @@ nav button{
 }
 .action-img{
   border-radius: 48px;
-  margin-right: 159px;
 }
 
 /* users  */
 .user-count{
   text-align: center;
   background-color: rgba(78, 71, 255, 0.1);
-  margin: 116px auto 0 auto;
-  width: 1140px;
-  padding: 50px;
+  margin: 116px auto;
+  max-width: 1140px;
   border-radius: 24px;
 
+}
+.user-container{
+  padding: 50px 0;
 }
 .user-title{
   font-size: 38px;
   font-weight: bold;
+  display: inline-block;
 }
 .user-infos{
   display: flex;
@@ -158,16 +163,17 @@ nav button{
 }
 /* focus styles */
 .focus{
-  width: 100%;
+  max-width: 1140px;
+  margin: auto;
+  height: 696px;
  
 }
 .focus-content{
   background-color: #ffffff;
-  max-width: 1100px;
   text-align: center;
-  margin: 137px auto 0 auto;
-  padding: 71px;
   border-radius: 48px;
+  
+  padding: 71px 150px ;
 }
 .focus-title{
   font-size: 50px;
@@ -207,7 +213,7 @@ nav button{
 .container {
   display: flex;
   max-width: 1140px;
-  margin: 0 auto;
+  margin: 71px auto;
   align-items: center;
   justify-content: space-between;
   gap: 60px;
@@ -268,8 +274,8 @@ nav button{
 
 /* footer styles */
 .feedback{
-  width: 1140px;
-  margin: 137px auto 0 auto;
+  max-width: 1140px;
+  margin: 137px auto;
 }
 
 footer{
